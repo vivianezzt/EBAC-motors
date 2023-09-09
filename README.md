@@ -1,6 +1,6 @@
 # EBAC MOTORS 
 
-## Projeto construído nas aulas de JQuery pela escola de programação <a href="https://ebaconline.com.br/cursos">EBAC</a>
+## Projeto construído nas aulas do módulo 10 sobre uso da tecnologia JQuery pela escola de programação <a href="https://ebaconline.com.br/cursos">EBAC</a>
 
 <img src="https://raw.githubusercontent.com/vivianezzt/EBAC-motors/main/img/ebac-motors1.png">
 
