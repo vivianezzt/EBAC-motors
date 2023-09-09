@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -158,7 +158,8 @@
         </div>
     </section>
 
-    <section class="container">
+    <section id="contato">
+        <div class="container">
         <h2>Entre em contato</h2>
         <form action="#">
             <div class="form-campo">
@@ -168,7 +169,7 @@
 
             <div class="form-campo">
                 <label for="telefone">Telefone:</label>
-                <input type="tel" name="nome" id="nome">
+                <input type="tel" name="nome" id="telefone">
             </div>
 
             <div class="form-campo">
@@ -178,7 +179,7 @@
 
             <div class="form-campo">
                 <label for="veiculo-interesse">Veículo de interesse:</label>
-                <input type="text" name="veiculo-interesse" id="veiculo-interesse">
+                <input type="text" name="veiculo-interesse" id="veiculoDeInteresse">
             </div>
         
             <div class="form-campo">
@@ -187,6 +188,7 @@
             </div>
             <button type="submit">Enviar</button>
         </form>
+    </div>
     </section>
 
     <footer>
@@ -212,19 +214,10 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#carousel-imagens').slick({
-                autoplay: true,
-            });
-
-            $('.menu-hamburguer').click(function(){
-
-                $('nav').slideToggle();
-            })
-        })
-
-    </script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
     
 </body>
 </html> 
