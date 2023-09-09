@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;;
 }
+html{
+    overflow-x: hidden;
+}
 .container {
     max-width: 1024px;
     width: 100%;
@@ -18,7 +21,6 @@ header{
     
 }
 header > .container{
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom:16px ;
@@ -26,6 +28,7 @@ header > .container{
 nav{
     background-color: #575fcf;
     padding: 16px 0;
+    display: none;
 }
 nav li {
     list-style-type: none;
@@ -50,4 +53,60 @@ nav li a {
     background-color: #fff;
     display: block;
     margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+#sobre-a-loja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 48px 0;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+.lista-veiculos {
+    flex-wrap: wrap;
+}
+.lista-veiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos img {
+    max-width: 100%;
+}
+.lista-veiculos li h3{
+    margin: 16px 0;
+}
+
+.item-central{
+    margin: 0 5%;
+}
+.lista-veiculos li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+.price{
+    margin: 16px;
+    display: block;
+}
+
+.price del{
+    color: #ccc;
+    font-size: 14px;
 }
